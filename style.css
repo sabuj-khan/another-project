@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+    color: gray;
+}
+.container{
+    width: 50%;
+    margin: 50px auto;
+}
+.area-form form label {
+     margin-bottom: 7px;
+     display: inline-block;
+     font-weight: 600;
+}
+.area-form form input[type='text'],
+.area-form form input[type='password'],
+.area-form form input[type='email']{
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+.area-form form input[type='file'] {
+    margin-bottom: 10px;
+}
+.heading h2 {
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 25px;
+}
+.area-form form input[type='submit'] {
+    padding: 9px 25px;
+    background-color: #B26FD6;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.heading p>a {
+    padding: 9px 25px;
+    background-color: #B26FD6;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.left-area {
+    width: 58%;
+    float: left;
+    margin-right: 2%;
+}
+.right-area {
+    width: 40%;
+    overflow: hidden;
+}
+.left-area .manu-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-area .manu-area {
+    overflow: hidden;
+}
+.left-area .manu-area ul li {
+    float: left;
+    overflow: hidden;
+}
+.left-area .manu-area ul li a {
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    display: block;
+
+}
+
+ .right-area .loginout strong a {
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    display: block;
+    font-weight: 600;
+ }
+
+ .error {
+    color: red;
+    font-weight: 600;
+ }
+
+ .success {
+    color: green;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
